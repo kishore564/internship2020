@@ -1,5 +1,5 @@
-#internship2020
-##commands
+# Internship2020
+## Git Commands
 * git clone<ssh_url>
 * git status
 * git log
