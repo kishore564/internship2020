@@ -1,5 +1,7 @@
 #      [05/23/2020 ASSIGNMENT_1](https://docs.google.com/document/d/16mFwFcpnkExhPi3K52Qg-q3NnST3hnesq3QrTwbhTec/edit?usp=sharing)
 
+! [All about GIT](images\git.jpg)
+
 ## Questions and Answers using "Table" Element 
 | `Question No`      | `Question`      | `Answer`        |
 | :-----:            |      :----      |            :--- |
