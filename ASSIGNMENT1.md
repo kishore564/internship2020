@@ -84,3 +84,15 @@
 > 36. How can you fix a broken commit?
 >>
 >> git commit -amend
+
+#### Difference between JSON, XML and text files
+| JSON               | XML               |
+| :-----:            |      :-----:      |
+|JSON stands for JavaScript Object Notation and is based on JavaScript language|XML is Extensive Markup language|
+|It supports text and number data types including integer and strings, arrays and objects|No direct support for array|
+|It does not contain start and end tags|XML contains start and end tags|
+|JSON is data-oriented|XML is document-oriented|
+
+#### Text files
+- Text files contain only text and has no special formatting such as bold text, italic or images|
+- Text files are identified with the .txt file extension
