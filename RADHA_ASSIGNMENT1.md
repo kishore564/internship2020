@@ -2,9 +2,14 @@
 
 <h1 align="middle"> Assignment 1 </h1>
 
+
 1. What is GIT ?
 
-* Git is a Distributed Version Control system(DVCS). It lets you track changes made to a file and allows you to revert back to any particular change that you wish.
+* Git is a Distributed Version Control system(DVCS). It lets you track changes made to a file and allows you to revert back to any particular change that you wish. 
+
+![](https://cdn.dribbble.com/users/2008/screenshots/433719/git-blueprint.png)
+
+
 
 
 2.  What is a repository in GIT?
