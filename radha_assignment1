@@ -1,0 +1,6 @@
+what is GIT ?
+* Git is a Distributed Version Control system(DVCS). It lets you track changes made to a file and allows you to revert back to any particular change that you wish.
+* It is a distributed architecture that provides many advantages over other Version Control Systems (VCS) like SVN. One of the major advantages is that it does not rely on a central server to store all the versions of a project’s files.
+* It is a distributed architecture that provides many advantages over other Version Control Systems (VCS) like SVN. One of theThere is a central cloud repository where developers can commit changes and share them with other teammates.
+*  major advantages is that it does not rely on a central server to store all the versions of a project’s files
+what
