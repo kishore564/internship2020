@@ -36,23 +36,26 @@
   
 5.    What are the advantages of using GIT?
 
-   * a)      Data redundancy and replication
+<ol>
 
-     b)      HighGit is a Decentralized Version Control tool
+   <li>     Data redundancy and replication </li>
 
-     c)       Only one.git directory per repository
+   <li>    HighGit is a Decentralized Version Control tool </li>
 
-     d)      Superior disk utilization and network performance
+  <li>     Only one.git directory per repository </li>
+
+  <li>     Superior disk utilization and network performance </li>
   
-     e)      Collaboration friendly
+  <li>     Collaboration friendly </li>
 
-    f)       Any sort of projects can use GIT
+  <li>      Any sort of projects can use GIT </li>
+  </ol>
 
 
 6.     What language is used in GIT?
 
 
-* GIT is fast, and ‘C’ language makes this possible by reducing the overhead of runtimes associated with higher languages.
+*   GIT is fast, and ‘C’ language makes this possible by reducing the overhead of runtimes associated with higher languages.
 
 
 7.    What is the function of ‘GIT PUSH’ in GIT?
@@ -60,14 +63,14 @@
 * ‘GIT PUSH’ updates remote refs along with associated objects.
 
 
-8.     Why GIT better than Subversion?
+8.  Why GIT better than Subversion?
 
 *   GIT is an open source version control system; it will allow you to run ‘versions’ of a project, which show the changes that were made to the code overtime also it allows you keep the backtrack if necessary and undo those changes.  Multiple developers can checkout, and upload changes and each change can then be attributed to a specific developer.
 
 
 9.   What is “Staging Area” or “Index” in GIT?
 
-*  Before completing the commits, it can be formatted and reviewed in an intermediate area known as ‘Staging Area’ or ‘Index’.
+*  Before completing the commits, it can be formatted and reviewed in an intermediate area known as ` 'Staging Area' ` or ` 'Index' `.
 
 
 10.   What is GIT stash?
@@ -81,10 +84,12 @@
 
 
 12.  How will you know in GIT if a branch has been already merged into master?
+<ol>
 
-*  Git branch—merged lists the branches that have been merged into the current branch
+ <li> Git branch—merged lists the branches that have been merged into the current branch </li>
 
-*  Git branch—-no merged lists the branches that have not been merged.
+ <li> Git branch—-no merged lists the branches that have not been merged.</li> 
+</ol>
 
 
 13.  What is the function of git clone?
@@ -93,26 +98,29 @@
 
 14.  What is the function of ‘git config’?
 
-* The ‘git config’ command is a convenient way to set configuration options for your Git installation.  Behaviour of a repository, user info, preferences etc. can be defined through this command.
+* The ` 'git config' ` command is a convenient way to set configuration options for your Git installation.  Behaviour of a repository, user info, preferences etc. can be defined through this command.
 
 
 15.   What does commit object contain?
 
-*  a)      A set of files, representing the state of a project at a given point of time
+<ul>
 
-  b)      Reference to parent commit objects
+<li>      A set of files, representing the state of a project at a given point of time </li>
 
-  c)       An SHAI name, a 40 character string that uniquely identifies the commit object.
+  <li>     Reference to parent commit objects </li>
+
+  <li>      An SHAI name, a 40 character string that uniquely identifies the commit object.</li>
+  </ul>
 
 
 16.  How can you create a repository in Git?
 
-*  In Git, to create a repository, create a directory for the project if it does not exist, and then run command “git init”. By running this command .git directory will be created in the project directory, the directory does not need to be empty. 
+*  In Git, to create a repository, create a directory for the project if it does not exist, and then run command ` “git init” `. By running this command .git directory will be created in the project directory, the directory does not need to be empty. 
 
 
 17.   What is ‘head’ in git and how many heads can be created in a repository?
 
-*  A ‘head’ is simply a reference to a commit object. In every repository, there is a default head referred as “Master”.  A repository can contain any number of heads.
+*  A `‘head’` is simply a reference to a commit object. In every repository, there is a default head referred as `“Master”`.  A repository can contain any number of heads.
 
 
 18.  What is the purpose of branching in GIT?
@@ -132,23 +140,23 @@
 
 21.  What is a ‘conflict’ in git?
 
-*  A ‘conflict’ arises when the commit that has to be merged has some change in one place, and the current commit also has a change at the same place. Git will not be able to predict which change should take precedence.
+*  A ``‘conflict’`` arises when the commit that has to be merged has some change in one place, and the current commit also has a change at the same place. Git will not be able to predict which change should take precedence.
 
 
 22.  How can conflict in git resolved?
 
-*  To resolve the conflict in git, edit the files to fix the conflicting changes and then add the resolved files by running “git add” after that to commit the repaired merge,  run “git commit”.  Git remembers that you are in the middle of a merger, so it sets the parents of the commit correctly.
+*  To resolve the conflict in git, edit the files to fix the conflicting changes and then add the resolved files by running `“git add”` after that to commit the repaired merge,  run`` “git commit”``.  Git remembers that you are in the middle of a merger, so it sets the parents of the commit correctly.
 
 
 23.  To delete a branch what is the command that is used?
 
 * Once your development branch is merged into the main branch, you don’t need
-development branch.  To delete a branch use, the command “git branch –d [head]”.
+development branch.  To delete a branch use, the command `“git branch –d [head]”`.
 
 
 24.   What is another option for merging in git?
 
-* “Rebasing” is an alternative to merging in git.
+*` “Rebasing” `is an alternative to merging in git.
 
 25.  What is the syntax for “Rebasing” in Git?
 
@@ -157,17 +165,19 @@ development branch.  To delete a branch use, the command “git branch –d [hea
 
 26.  What is the difference between ‘git remote’ and ‘git clone’?
 
-* ‘git remote add’  just creates an entry in your git config that specifies a name for a particular URL.  While, ‘git clone’ creates a new git repository by copying and existing one located at the URI.
+* ‘git remote add’  just creates an entry in your git config that specifies a name for a particular URL.  While, `‘git clone’` creates a new git repository by copying and existing one located at the URI.
 
 
 27.  What is GIT version control?
 
-* With the help of GIT version control, you can track the history of a collection of files and includes the functionality to revert the collection of files to another version.  Each version captures a snapshot of the file system at a certain point of time. A collection of files and their complete history are stored in a repository.
+* With the help of GIT version control, you can track the history of a collection of files and includes the functionality to revert the collection of files to another version.  
+* Each version captures a snapshot of the file system at a certain point of time.
+* A collection of files and their complete history are stored in a repository.
 
 
 28.  What is ‘git status’ is used for?
 
-*  As ‘Git Status’ shows you the difference between the working directory and the index, it is helpful in understanding a git more comprehensively.
+*  As  `` ‘Git Status’`` shows you the difference between the working directory and the index, it is helpful in understanding a git more comprehensively.
 
 
 29.   What is the difference between the ‘git diff ’and ‘git status’?
@@ -192,11 +202,11 @@ development branch.  To delete a branch use, the command “git branch –d [hea
 
 33.   What is the use of ‘git log’?
 
-*  To find specific commits in your project history- by author, date, content or history ‘git log’ is used.
+*  To find specific commits in your project history- by author, date, content or history `` ‘git log’ ``is used.
 
 34.   What is ‘git add’ is used for?
 
-*  ‘git add’ adds file changes in your existing directory to your index.
+*  `‘git add’` adds file changes in your existing directory to your index.
 
 
 35.  What is the function of ‘git reset’?
@@ -211,7 +221,7 @@ development branch.  To delete a branch use, the command “git branch –d [hea
 
 37.   How can you fix a broken commit?
 
-*  To fix any broken commit, you will use the command “git commit—amend”. By running this command, you can fix the broken commit message in the editor.
+*  To fix any broken commit, you will use the command `` “git commit—amend”``. By running this command, you can fix the broken commit message in the editor.
 
 
 
