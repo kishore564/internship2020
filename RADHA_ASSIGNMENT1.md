@@ -20,12 +20,13 @@
 4.    What is the difference between GIT and SVN?
                                                  
           
-
-     *    The difference between GIT and SVN is
+*    The difference between GIT and SVN is
 
      
-       + |  NUMBERS   |  GIT  |  SVN    |
-       + | :--- | : ---- : | |  --- :  | 
+| GIT  | SVN |
+| --- | --- |
+|   |   |
+|   |   |
   
 
 
