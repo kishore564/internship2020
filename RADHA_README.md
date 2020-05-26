@@ -12,6 +12,9 @@
 * git commit
 * git mark
 * git config
+* git commit -M
+* .git
+
 
 ## Unix Commands
 * ls
@@ -19,4 +22,5 @@
 * mkdir
 * cat
 * rm 
+* pwd
 
