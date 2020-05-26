@@ -26,11 +26,11 @@
 | GIT  | SVN |
 | --- | --- |
 | Git is a Decentralized Version Control tool | SVN is a  Centralized Version Control tool |
-| --- | --- |
+|      |    |
 | It belongs to the 3rd generation of Version Control tools | It belongs to the 2nd generation of Version Control tools  |
-| --- | ---|
+|      |   |
 | Clients can clone entire repositories on their local systems | Version history is stored on a server-side repository |
-| --- | ---|
+|      |    |
 | Commits are possible even if offline | Only online commits are allowed  |  
 
   
@@ -40,15 +40,11 @@
 
      b)      HighGit is a Decentralized Version Control tool
 
-SVN is a  Centralized Version Control tool
-
-
-
      c)       Only one.git directory per repository
 
-    d)      Superior disk utilization and network performance
-
-    e)      Collaboration friendly
+     d)      Superior disk utilization and network performance
+  
+     e)      Collaboration friendly
 
     f)       Any sort of projects can use GIT
 
