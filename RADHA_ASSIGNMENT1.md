@@ -10,8 +10,6 @@
 ![](https://cdn.dribbble.com/users/2008/screenshots/433719/git-blueprint.png)
 
 
-
-
 2.  What is a repository in GIT?
 
 * A repository contains a directory named .git, where git keeps all of its metadata for the repository. The content of the .git directory are private to git.
@@ -226,10 +224,47 @@ development branch.  To delete a branch use, the command `“git branch –d [he
 
 37.   How can you fix a broken commit?
 
-*  To fix any broken commit, you will use the command `` “git commit—amend”``. By running this command, you can fix the broken commit message in the editor.
+*  To fix any broken commit, you will use the command `` “git commit—amend”``.
 
+38. difference between json ,xml,and textfiles?
 
+| JSON | XML |TEXT FILES |
 
+`JSON`:
+       JSON is data oriented 
+       JSON stands for JavaScript Object Notation
+       JSON is a lightweight format for storing and transporting data.This example defines an employees object: an array of 3 employee records (objects):
+
+ JSON EXAMPLE:      
+
+{
+"employees":[
+    {"firstName":"John", "lastName":"Doe"},
+    {"firstName":"Anna", "lastName":"Smith"},
+    {"firstName":"Peter", "lastName":"Jones"}
+]
+}
+
+  `XML`:      
+       XML is document oriented 
+       XML stands for eXtensible Markup Language
+       XML plays an important role in many different IT systems
+       XML is often used for distributing data over the Internet
+
+ EXAMPLE:
+       <?xml version="1.0" encoding="UTF-8"?>
+<note>
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+</note>
+
+``TEXT FILES``:     
+               Text files contain only text and has no special formatting such as bold text, italic or images
+
+EXAMPLE:
+      ![]https://www.computerhope.com/jargon/t/text.jpg
 
 
 
