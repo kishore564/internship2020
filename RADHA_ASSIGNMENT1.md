@@ -264,7 +264,7 @@ development branch.  To delete a branch use, the command `“git branch –d [he
                Text files contain only text and has no special formatting such as bold text, italic or images
 
 EXAMPLE:
-      ![]https://www.computerhope.com/jargon/t/text.jpg
+      ![](https://www.computerhope.com/jargon/t/text.jpg)
 
 
 
