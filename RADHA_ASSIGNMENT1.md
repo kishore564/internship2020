@@ -228,57 +228,56 @@ development branch.  To delete a branch use, the command `“git branch –d [he
 
 38. difference between json ,xml,and textfiles?
 
-| JSON | XML |TEXT FILES |
 
-`JSON`:
-       JSON is data oriented 
+
+
+  <d1>
+  <dt>` JSON :` </dt> 
+
+      <dd> JSON is data oriented 
        JSON stands for JavaScript Object Notation
-       JSON is a lightweight format for storing and transporting data.This example defines an employees object: an array of 3 employee records (objects):
-
- JSON EXAMPLE:      
-
-{
+       JSON is a lightweight format for storing and transporting data.This example defines an employees object: an array of 3 employee records (objects): </dd>
+  <d1>
+ <dt> JSON EXAMPLE: </dt> 
+ <d1>
+<dd>{
 "employees":[
     {"firstName":"John", "lastName":"Doe"},
     {"firstName":"Anna", "lastName":"Smith"},
     {"firstName":"Peter", "lastName":"Jones"}
 ]
-}
+}</dd></d1>
 
-  `XML`:      
-       XML is document oriented 
+<d1>
+<dt> `XML`: </dt>      
+       <dd>  XML is document oriented 
        XML stands for eXtensible Markup Language
        XML plays an important role in many different IT systems
-       XML is often used for distributing data over the Internet
+       XML is often used for distributing data over the Internet </dd></d1>
 
- EXAMPLE:
-       <?xml version="1.0" encoding="UTF-8"?>
+<d1>
+<dt> ` EXAMPLE:`  </dt>
+<dd>   <?xml version="1.0" encoding="UTF-8"?>
 <note>
   <to>Tove</to>
   <from>Jani</from>
   <heading>Reminder</heading>
   <body>Don't forget me this weekend!</body>
-</note>
-
-``TEXT FILES``:     
-               Text files contain only text and has no special formatting such as bold text, italic or images
-
-EXAMPLE: 
-
-![](https://www.computerhope.com/jargon/t/text.jpg)
-
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
-
-[^1]: This is the first footnote.
-
-[^bignote]: Here's one with multiple paragraphs and code.
-
-    Indent paragraphs to include them in the footnote.
-
-    `{ my code }`
-
-    Add as many paragraphs as you like.
+</note>></dd></d1>
 
 
+<d1>
+<dt> ``TEXT FILES:`` </dt> 
+                <dd> Text files contain only text and has no special formatting such as bold text, italic or images</dd>
 
+</d1>
+
+
+<dt> EXAMPLE:  </dt><d1>
+
+
+![](https://www.computerhope.com/jargon/t/text.jpg) 
+
+
+ </d1>
 
