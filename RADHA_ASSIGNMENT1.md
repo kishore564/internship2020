@@ -173,7 +173,7 @@ development branch.  To delete a branch use, the command `“git branch –d [he
 
 27.  What is GIT version control?
 
-* With the help of GIT version control, you can track the history of a collection of files and includes the functionality to revert the collection of files to another version.  
+  [With the help of GIT version control, you can track the history of a collection of files and includes the functionality to revert the collection of files to another version.  
 * Each version captures a snapshot of the file system at a certain point of time.
 * A collection of files and their complete history are stored in a repository.
 
@@ -263,9 +263,23 @@ development branch.  To delete a branch use, the command `“git branch –d [he
 ``TEXT FILES``:     
                Text files contain only text and has no special formatting such as bold text, italic or images
 
-EXAMPLE:
-      ![](https://www.computerhope.com/jargon/t/text.jpg)
+EXAMPLE: 
 
+![](https://www.computerhope.com/jargon/t/text.jpg)
+
+[^1]: This is the first footnote.
+
+[^bignote]:  Here's one with multiple paragraphs and code.Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
 
 
 
