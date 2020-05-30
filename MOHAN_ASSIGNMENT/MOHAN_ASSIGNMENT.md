@@ -34,11 +34,11 @@
 * The difference between Git and SVN version control systems is that Git is a distributed version control system, whereas SVN is a centralized version control system. 
 * Git uses multiple repositories including a centralized repository and server, as well as some local repositories. SVN does not have a centralized repository or server.|
 
-# GIT-WORK-FLOW 
+### GIT-WORK-FLOW 
 ![alt text ](https://hackbrightacademy.com/content/uploads/2013/08/git_work_flow.png)
 
 
-# SVN-WORK-FLOW 
+### SVN-WORK-FLOW 
 ![alt text](https://hackbrightacademy.com/content/uploads/2013/08/svn_work_flow.png)
 
 **6)  What are the advantages of using GIT?**
@@ -67,7 +67,7 @@
 * The git stash command enables you to switch branches without committing the current branch.
 * The below figure demonstrates the properties and role of stashing concerning repository and working directory.
 
-# GIT STASH
+### GIT STASH
 
 ![alt text ](https://static.javatpoint.com/tutorial/git/images/git-stash.png)
 
@@ -104,14 +104,14 @@
 * The git config command is a convenience function that is used to set Git configuration values on a global or local project level.
 * These configuration levels correspond to . gitconfig text files. 
 * Executing git config will modify a configuration text file.
-# GIT CONFIG
+### GIT CONFIG
 ![alt text ](https://poftut.b-cdn.net/wp-content/uploads/2019/08/img_5d4a5e05f02de.png)
 
 
 **15)  What does commit object contain?**
 * The commit object contains the directory tree object hash, parent commit hash, author, committer, date and message. 
 * I'll use git cat-file to show the contents of the hashed files in . git/objects , but cat-file is a relatively obscure git command that you will probably not need in your daily git work.
-#  commit object contain
+### commit object contain
 ![alt text ](https://shafiul.github.io/gitbook/assets/images/figure/objects-example.png)
 
 
@@ -141,7 +141,7 @@
 
 **19)  What is the common branching pattern in GIT?**
 
-# common branching patterns
+## common branching patterns
 * it is an systmatic way to develop a project
 * the common branching pattern means the new features are merge from develop branch to master branch
 * master
@@ -232,7 +232,7 @@ git push origin --delete remoteBranchName
 **27) What is GIT version control?**
 *  Git (/ɡɪt/) is a distributed version-control system for tracking changes in source code during software development.
 * It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
-# GIT version control
+### GIT version control
 ![alt text ](https://i.ytimg.com/vi/OqmSzXDrJBk/maxresdefault.jpg)
 
 
@@ -241,7 +241,7 @@ git push origin --delete remoteBranchName
 * The git status command displays the state of the working directory and the staging area. 
 * It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
 *  Status output does not show you any information regarding the committed project history.
-# GIT STATUS
+### GIT STATUS
 ![alt text ](https://miro.medium.com/max/1458/1*B2sgTZoPNqZKGLsTh9pg6A.png)
 
 
@@ -252,7 +252,7 @@ git push origin --delete remoteBranchName
 **30) What is the function of 'GIT CHECKOUT' in GIT?**
 * The git checkout command lets you navigate between the branches created by git branch.
 * Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch
-# GIT CHECKOUT
+### GIT CHECKOUT
 ![alt text ](https://media.geeksforgeeks.org/wp-content/uploads/20190902185659/1406-1.png)
 
 
@@ -262,7 +262,7 @@ git push origin --delete remoteBranchName
 * The primary function of git rm is to remove tracked files from the Git index. 
 * Additionally, git rm can be used to remove files from both the staging index and the working directory.
 
-# GIT RM
+### GIT RM
 ![alt text ](https://static.javatpoint.com/tutorial/git/images/git-rm-3.png)
 
 **32) What is the function of 'GIT stash apply?**
@@ -280,7 +280,7 @@ git push origin --delete remoteBranchName
 * The git add is a command, which adds changes in the working directory to the staging area.
 * With the help of this command, you tell Git that you want to add updates to a certain file in the next commit.
 * But in order to record changes, you need to run git commit too.
-# GIT ADD
+### GIT ADD
 ![alt text ](https://www.w3docs.com/uploads/media/default/0001/03/ad19114d2f18ae7f7e8b99a5110d1a2f339282c6.png)
 
 
@@ -290,7 +290,7 @@ git push origin --delete remoteBranchName
 * Git reset is a powerful command that is used to undo local changes to the state of a Git repo.
 * Git reset operates on "The Three Trees of Git".
 * These trees are the Commit History ( HEAD ), the Staging Index, and the Working Directory.
-# GIT RESET
+### GIT RESET
 
 ![alt text ](https://git-scm.com/book/en/v2/images/reset-checkout.png)
 
