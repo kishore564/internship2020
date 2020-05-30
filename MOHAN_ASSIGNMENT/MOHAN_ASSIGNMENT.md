@@ -9,12 +9,6 @@
 | JSON supports only text and number data type.| XML support many data types such as text, number, images, charts, graphs etc. |
 
 
- *XML file*
-* XML stands for eXtensible Markup Language.
-* XML is document-oriented.
-* XML provides the capability to display data because it is a markup language.
- XML support many data types such as text, number, images, charts, graphs etc. 
-
 *TXT file*
 * A text file is a computer file that only contains text.
 * text files are identified with the .txt
@@ -210,15 +204,15 @@ git push origin --delete remoteBranchName
 
 
 **25) What is the syntax for "Rebasing" in GIT?**
-# Start a new feature
+#### Start a new feature
 * git checkout -b new-feature master
-# Edit files
+#### Edit files
 * git commit -a -m "Start developing a feature"
-# Create a hotfix branch based off of master
+#### Create a hotfix branch based off of master
 * git checkout -b hotfix master
-# Edit files
+#### Edit files
 * git commit -a -m "Fix security hole"
-# Merge back into master
+#### Merge back into master
 * git checkout master
 * git merge hotfix
 * git branch -d hotfix
