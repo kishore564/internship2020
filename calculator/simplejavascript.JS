@@ -1,31 +1,70 @@
-simplejavascript.js
-function screen(val)
-        {
-        document.getElementById("box").value=val;
-        }
+function screen(val) {  
+        document.getElementById("box").value = val;
+        
+}
 
 // Concatenating Values
-function shownum(val)   {
-        document.getElementById("box").value+=val;
-        }
+function shownum(val) {
+        document.getElementById("box").value = val;
+}
 
 // Performing the Calcuulation
-function solve() { 
-    try     { 
-            screen(eval(document.getElementById("box").value)) 
-            } 
-    catch(e) {
-            screen('Error') 
-            } 
-                 }
+function solve() {
+
+        console.log("solve")}
+        try {
+                screen(eval(document.getElementById("box").value))
+                
+                        
+        }
+        catch (e) {
+                screen('Error')
+        }
+
+
+
 // Clear the Input Screen
 function clearme() {
-                document.getElementById("box").value = "";
-                } 
+
+        document.getElementById("box").value = "";
+        
+}
 // Backspace Function
 function delback() {
-                var valueNeeded = document.getElementById("box").value;
-                var finalValueNeeded = valueNeeded.substr(0, valueNeeded.length-1); 
-                document.getElementById("box").value=finalValueNeeded;
-                
-                } 
+
+        var valueNeeded = document.getElementById("box").value;
+        var finalValue2Needed = valueNeeded.substr(0, valueNeeded.length - 1);
+        document.getElementById("box").value = finalValue2Needed;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

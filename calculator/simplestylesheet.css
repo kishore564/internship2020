@@ -1,16 +1,16 @@
 simplestylesheet.css
-h1 {color: #fff;}
+h1 {color:orange;}
 .container{
         margin: 0 auto;
         }  
 .calc-container {
 		padding: 20px;
-		background: #191717;
+		background: blue;
 		width: 250px;
 		border-radius: 20px;
-		box-shadow: 10px 10px 5px #888888;	   
-		-moz-box-shadow: 10px 10px 5px #888888;
-		-webkit-box-shadow: 10px 10px 5px #888888;
+		box-shadow: 10px 10px 5px #888888 ;	   
+		-moz-box-shadow: 10px 10px 5pX #888888;
+		-webkit-box-shadow: 10px 10px 5px #88888;
 		margin: 10px auto;
         }
 #box {
