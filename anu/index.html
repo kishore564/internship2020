@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./calc.css"  rel="stylesheet"s>
+    <script src="./calc.js">
+  
+    </script>
+    
+</head>
+<body>
+<form id="f">
+    <h1>Simple Calculator</h1>
+<table>
+    
+   <tr>
+       <td colspan="1"><button type="button"  id="clr" onclick="Clearfun()">C</button></td>
+       <td id="textval" colspan="3"><input type="text"  id="answer" readonly></td>
+</tr>
+<tr>
+    <td> <button type="button" class="butnum"     id="b7" onclick="butvalue(this.id)">7</button></td>
+    <td> <button type="button"  class="butnum"    id="b8" onclick="butvalue(this.id)">8</button></td>
+    <td> <button type="button" class="butnum"     id="b9" onclick="butvalue(this.id)">9</button></td>
+    <td> <button type="button"  class="butopr"   id="bmul" onclick="butvalue(this.id)" disabled>*</button></td>
+</tr>
+<tr>
+    <td> <button type="button"  class="butnum"  id="b4" onclick="butvalue(this.id)">4</button></td>
+    <td> <button type="button"  class="butnum"   id="b5" onclick="butvalue(this.id)">5</button></td>
+    <td> <button type="button"  class="butnum"   id="b6" onclick="butvalue(this.id)">6</button></td>
+    <td> <button type="button"  class="butopr"  id="bsub"onclick="butvalue(this.id)" disabled>-</button></td>
+</tr>
+<tr>
+    <td> <button type="button"  class="butnum"   id="b1" onclick="butvalue(this.id)">1</button></td>
+    <td> <button type="button"  class="butnum"   id="b2" onclick="butvalue(this.id)">2</button></td>
+    <td> <button type="button"  class="butnum"   id="b3" onclick="butvalue(this.id)">3</button></td>
+    <td> <button type="button"  class="butopr"   id="badd" onclick="butvalue(this.id)" disabled>+</button></td>
+</tr>
+<tr>
+    <td> <button type="button"  class="butopr"    id="b." onclick="butvalue(this.id)" disabled>.</button></td>
+    <td> <button type="button"  class="butnum"    id="bzero" onclick="butvalue(this.id)">0</button></td>
+    <td> <button type="button"   class="butopr"   id="beq" onclick="onsolve()" disabled>=</button></td>
+    <td> <button type="button"   class="butopr"   id="bdiv" onclick="butvalue(this.id)" disabled>/</button></td>
+ </tr>       
+</table>
+</form>
+
+
+</body>
+
+
+</html>
