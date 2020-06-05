@@ -29,7 +29,7 @@ border-top:2px solid transparent;
 }
 .button.gray
 {
-color:white;
+color:whitesmoke;
 background-color:#6f6f6f;
 border-bottom:black 2px solid;
 border-top:2px #6f6f6f solid;
@@ -42,7 +42,7 @@ border-bottom:black 2px solid;
 }
 .button.black
 {
-color:white;
+color:yellowgreen;
 background-color:303030;
 border-bottom:black 2px solid;
 border-top:2px 303030 solid;
