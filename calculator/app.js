@@ -14,9 +14,9 @@ document.getElementById("d").value+=val;
     document.getElementById("d").value = x;
   }
 }
-function d(val){
-document.getElementById("d").value = val;
-}
+// function d(val){
+// document.getElementById("d").value = val;
+// }
 function e() 
 { 
 try 
